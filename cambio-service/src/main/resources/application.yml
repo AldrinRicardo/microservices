@@ -20,7 +20,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
   flyway:
-    url: jdbc:mysql://localhost:3306/
+    url: jdbc:mysql://localhost:3306/cambio-service?useTimezone=true&serverTimezone=UTC
     schemas: cambio-service
     user: root
     password: 1234567
